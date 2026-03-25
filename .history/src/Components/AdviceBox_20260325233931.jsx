@@ -34,9 +34,7 @@ const AdviceBox = () => {
             {loading ? (
                 <p>Loading...</p>
             ) : (
-                <p className="advice-text text-light">
-                    {advice}
-                </p>
+                <p className="advice-text">{advice}</p>
             )}
 
         </div>
