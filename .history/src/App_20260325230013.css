@@ -1,0 +1,55 @@
+/* خلفية التطبيق بالكامل */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(135deg, #0d6efd, #0dcaf0);
+  min-height: 100vh;
+}
+
+/* الحاوية الأساسية */
+.app-wrapper {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* كارت الإدخال */
+.card {
+  border: none;
+  border-radius: 15px;
+}
+
+/* النتيجة */
+.alert {
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+/* عناصر السجل */
+.list-group-item {
+  border-radius: 10px !important;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+/* تأثير عند المرور */
+.list-group-item:hover {
+  transform: scale(1.02);
+  background-color: #f8f9fa;
+}
+
+/* زر */
+button {
+  transition: 0.2s;
+}
+
+/* تأثير الزر */
+button:hover {
+  transform: scale(1.03);
+}
+
+/* تحسين النصيحة */
+.advice-text {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}

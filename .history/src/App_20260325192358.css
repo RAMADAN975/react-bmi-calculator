@@ -1,0 +1,84 @@
+/* السطر 1: تنسيق جسم الصفحة بالكامل */
+body {
+  /* خلفية متدرجة (Gradient) من الرمادي الفاتح جداً إلى الأبيض */
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+  /* التأكد من أن الخلفية تغطي كامل طول الشاشة */
+  min-height: 100vh;
+
+  /* اختيار خطوط عصرية ونظيفة للقراءة */
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  /* لون نص رمادي غامق مريح للعين */
+  color: #333;
+}
+
+/* السطر 2: تنسيق البطاقة (Card) الخاصة بالحاسبة */
+.card {
+  /* جعل الحواف دائرية بشكل ناعم واحترافي */
+  border-radius: 20px !important;
+
+  /* إضافة ظل ناعم جداً ليعطي إيحاءً بالعمق (Elevated UI) */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+
+  /* إضافة تأثير حركي عند حدوث أي تغيير */
+  transition: all 0.3s ease-in-out;
+}
+
+/* السطر 3: تأثير عند مرور الماوس فوق البطاقة (Hover Effect) */
+.card:hover {
+  /* تحريك البطاقة للأعلى قليلاً (5 بكسل) لجذب انتباه المستخدم */
+  transform: translateY(-5px);
+
+  /* زيادة قوة الظل عند التفاعل */
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* السطر 4: تنسيق أزرار الإدخال (Inputs) */
+.form-control {
+  /* حواف دائرية تتناسب مع تصميم البطاقة */
+  border-radius: 10px;
+
+  /* إضافة مساحة داخلية مريحة للكتابة */
+  padding: 12px 15px;
+
+  /* تغيير لون الحدود لتكون أخف */
+  border: 1px solid #dee2e6;
+}
+
+/* السطر 5: تنسيق زر الحساب الرئيسي */
+.btn-primary {
+  /* لون أزرق مميز للمشروع */
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 600;
+  /* إضافة تأثير انتقال للألوان */
+  transition: background 0.3s ease;
+}
+
+/* السطر 6: تنسيق قسم النتيجة (Result Box) */
+.result-box {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  /* إضافة حد ملون من الجانب لجذب الانتباه */
+  border-left: 5px solid #007bff;
+  padding: 20px;
+  margin-top: 20px;
+  /* تأثير ظهور تدريجي للنتيجة */
+  animation: fadeIn 0.5s ease-in;
+}
+
+/* السطر 7: تعريف حركة الظهور (Animation) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
