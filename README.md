@@ -1,16 +1,23 @@
-# React + Vite
+# 🚀 FitTrack Pro 2026
+A sleek, modern BMI Calculator built with **React.js**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ✨ Features
+* **Modern UI:** Advanced Glassmorphism design with a dark theme.
+* **Smart Calculation:** Automatically detects if height is in CM or Meters.
+* **Persistence:** Saves your calculation history using LocalStorage.
+* **Dynamic Record Management:** Users can delete individual records or clear the entire history.
+* **Health Tips:** Fetches motivational health advice via API.
 
-Currently, two official plugins are available:
+## 🛠️ Built With
+* React.js (Vite)
+* Bootstrap 5
+* CSS3 (Custom Gradients & Backdrop Filters)
+* GitHub & Vercel for Deployment
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Preview
+![App Preview](رابط_صورة_مشروعك_هنا_اختياري)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏁 How to Run
+1. Clone the repo: `git clone https://github.com/RAMADAN975/react-bmi-calculator.git`
+2. Install dependencies: `npm install`
+3. Start the app: `npm run dev`
